@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wk.nOorm.lib", "wk.nOorm.lib", "{3D11C4A2-A7D6-48C1-9796-E8D39CB3F711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk.nOorm.lib.da", "wk.nOorm.lib\wk.nOorm.lib.da\wk.nOorm.lib.da.csproj", "{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk.nOorm.lib.bn", "wk.nOorm.lib\wk.nOorm.lib.bn\wk.nOorm.lib.bn.csproj", "{C67F447F-3483-40E6-92C6-E8A57A42A3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk.nOorm.lib.ei", "wk.nOorm.lib\wk.nOorm.lib.ei\wk.nOorm.lib.ei.csproj", "{9F591362-4177-4CD5-B274-8AA4F57C3594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wk.nOorm.cmd", "wk.nOorm.cmd", "{AB28A71C-F115-4D8E-A5D7-67F099E2427D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk.nOorm.cmd.ts", "wk.nOorm.cmd\wk.nOorm.cmd.ts\wk.nOorm.cmd.ts.csproj", "{531F9C0F-6243-439F-9844-E38F518D6747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wk.nOorm.frm", "wk.nOorm.frm", "{FDB99863-6A76-4DA9-BB51-D42722D8064E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk.nOorm.frm.ui", "wk.nOorm.frm\wk.nOorm.frm.ui\wk.nOorm.frm.ui.csproj", "{4368B300-A75D-4576-B54B-B28B7567D3C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wk.nOorm.db", "wk.nOorm.db", "{987F85BD-DCCA-4E56-BC7C-4FEB9678D6D5}"
+	ProjectSection(SolutionItems) = preProject
+		wk.nOorm.db.xml = wk.nOorm.db.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67F447F-3483-40E6-92C6-E8A57A42A3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67F447F-3483-40E6-92C6-E8A57A42A3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67F447F-3483-40E6-92C6-E8A57A42A3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67F447F-3483-40E6-92C6-E8A57A42A3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F591362-4177-4CD5-B274-8AA4F57C3594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F591362-4177-4CD5-B274-8AA4F57C3594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F591362-4177-4CD5-B274-8AA4F57C3594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F591362-4177-4CD5-B274-8AA4F57C3594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531F9C0F-6243-439F-9844-E38F518D6747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531F9C0F-6243-439F-9844-E38F518D6747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531F9C0F-6243-439F-9844-E38F518D6747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531F9C0F-6243-439F-9844-E38F518D6747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4368B300-A75D-4576-B54B-B28B7567D3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4368B300-A75D-4576-B54B-B28B7567D3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4368B300-A75D-4576-B54B-B28B7567D3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4368B300-A75D-4576-B54B-B28B7567D3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0F5A8F9-52BB-4CB6-BA1D-29C8B49FF105} = {3D11C4A2-A7D6-48C1-9796-E8D39CB3F711}
+		{C67F447F-3483-40E6-92C6-E8A57A42A3B8} = {3D11C4A2-A7D6-48C1-9796-E8D39CB3F711}
+		{9F591362-4177-4CD5-B274-8AA4F57C3594} = {3D11C4A2-A7D6-48C1-9796-E8D39CB3F711}
+		{531F9C0F-6243-439F-9844-E38F518D6747} = {AB28A71C-F115-4D8E-A5D7-67F099E2427D}
+		{4368B300-A75D-4576-B54B-B28B7567D3C7} = {FDB99863-6A76-4DA9-BB51-D42722D8064E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wk25.visualstudio.com/
+		SccProjectUniqueName0 = wk.nOorm.lib\\wk.nOorm.lib.ei\\wk.nOorm.lib.ei.csproj
+		SccProjectTopLevelParentUniqueName0 = wk.nOorm.sln
+		SccProjectName0 = wk.nOorm.lib/wk.nOorm.lib.ei
+		SccLocalPath0 = wk.nOorm.lib\\wk.nOorm.lib.ei
+		SccProjectUniqueName1 = wk.nOorm.lib\\wk.nOorm.lib.da\\wk.nOorm.lib.da.csproj
+		SccProjectTopLevelParentUniqueName1 = wk.nOorm.sln
+		SccProjectName1 = wk.nOorm.lib/wk.nOorm.lib.da
+		SccLocalPath1 = wk.nOorm.lib\\wk.nOorm.lib.da
+		SccProjectUniqueName2 = wk.nOorm.lib\\wk.nOorm.lib.bn\\wk.nOorm.lib.bn.csproj
+		SccProjectTopLevelParentUniqueName2 = wk.nOorm.sln
+		SccProjectName2 = wk.nOorm.lib/wk.nOorm.lib.bn
+		SccLocalPath2 = wk.nOorm.lib\\wk.nOorm.lib.bn
+		SccProjectUniqueName3 = wk.nOorm.cmd\\wk.nOorm.cmd.ts\\wk.nOorm.cmd.ts.csproj
+		SccProjectTopLevelParentUniqueName3 = wk.nOorm.sln
+		SccProjectName3 = wk.nOorm.cmd/wk.nOorm.cmd.ts
+		SccLocalPath3 = wk.nOorm.cmd\\wk.nOorm.cmd.ts
+		SccProjectUniqueName4 = wk.nOorm.frm\\wk.nOorm.frm.ui\\wk.nOorm.frm.ui.csproj
+		SccProjectTopLevelParentUniqueName4 = wk.nOorm.sln
+		SccProjectName4 = wk.nOorm.frm/wk.nOorm.frm.ui
+		SccLocalPath4 = wk.nOorm.frm\\wk.nOorm.frm.ui
+		SccLocalPath5 = .
+	EndGlobalSection
+EndGlobal
